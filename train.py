@@ -13,7 +13,7 @@ from torch.backends import cudnn
 from tensorboardX import SummaryWriter
 
 
-from model.LEGIT import FSSNet
+from model.LERENet import FSSNet
 from util import config, transform, dataset
 from util.util import AverageMeter, poly_learning_rate, intersectionAndUnionGPU, backbone_optimizer
 
