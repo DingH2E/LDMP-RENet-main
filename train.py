@@ -13,12 +13,9 @@ from torch.backends import cudnn
 from tensorboardX import SummaryWriter
 
 
-from model.Test1Net import Test1Net
+from model.LERENet import FSSNet
 from util import config, transform, dataset
 from util.util import AverageMeter, poly_learning_rate, intersectionAndUnionGPU, backbone_optimizer
-
-
-from model.comparable.FSSNet import FSSNet
 
 def get_parser():
     parser = argparse.ArgumentParser(description='LERENet')
